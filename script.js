@@ -124,7 +124,7 @@ function renderMovieList() {
             </label>
             <img
                 class="js-remove-btn remove-btn"
-                src="./resources/remove_btn.svg"
+                src="resources/remove_btn.svg"
                 alt="Вычеркнуть фильм"
             >`;
         
