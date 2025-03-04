@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список фильмов</title>
+    <link rel="shortcut icon" href="resources/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">
+                <span class="title__text">Список фильмов</span>
+                <span class="title__year">2025</span>
+            </h1>
+            <p class="watch">Посмотреть</p>
+        </div>
+        <div class="movies">
+            <div class="content">
+
+                <div class="movies__input-wrapper">
+                    <input
+                        class="js-movies__input movies__input"
+                        type="text"
+                        placeholder="Добавить фильм"
+                    >
+                    <button class="js-movies__add-btn movies__add-btn">
+                        <img
+                            class="movies__add-btn_circle"
+                            src="./resources/add_btn_circle.svg"
+                            alt="Круг"
+                        >
+                        <img
+                            class="movies__add-btn_arrow"
+                            src="./resources/add_btn_arrow.svg"
+                            alt="Стрелка"
+                        >
+                    </button>
+                </div>
+
+                <ul class="js-movies__list movies__list"></ul>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
