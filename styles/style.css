@@ -101,11 +101,13 @@ h1 span {
     justify-content: center;
     cursor: pointer;
     position: relative;
+    flex-shrink: 0;
 }
 
 .movies__add-btn_circle {
-    width: 100%;
-    height: 100%;
+    width: 62px;
+    height: 62px; 
+    flex-shrink: 0;
 }
 
 .movies__add-btn_arrow {
@@ -235,7 +237,8 @@ h1 span {
         font-size: 25px;
     }
     
-    .movies__add-btn {
+    .movies__add-btn,
+    .movies__add-btn_circle {
         width: 50px;
         height: 50px;
     }
@@ -266,7 +269,7 @@ h1 span {
 
 @media (max-width: 767px) {
     .container {
-        padding: 40px 30px;
+        padding: 40px 20px;
     }
     
     .watch {
@@ -296,7 +299,8 @@ h1 span {
         font-size: 20px;
     }
     
-    .movies__add-btn {
+    .movies__add-btn,
+    .movies__add-btn_circle {
         width: 40px;
         height: 40px;
     }
