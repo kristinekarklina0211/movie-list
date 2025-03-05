@@ -71,6 +71,7 @@ h1 span {
 }
 
 .movies__input {
+    outline: none;
     padding-left: 10px;
     
     width: 411px;
@@ -269,7 +270,7 @@ h1 span {
 
 @media (max-width: 767px) {
     .container {
-        padding: 40px 20px;
+        padding: 40px 15px;
     }
     
     .watch {
