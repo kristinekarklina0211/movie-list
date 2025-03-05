@@ -20,7 +20,7 @@ body {
 
 h1 {
     display: flex;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: -0.6px;
     text-transform: uppercase;
 }
@@ -41,7 +41,7 @@ h1 span {
 }
 
 .title__text {
-    width: 183px;
+    width: 200px;
 }
 
 .title__year {
@@ -92,27 +92,26 @@ h1 span {
 }
 
 .movies__add-btn {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     width: 62px;
     height: 62px;
-    border: none;
     background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    position: relative;
 }
-
 
 .movies__add-btn_circle {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .movies__add-btn_arrow {
     position: absolute;
     width: 50%;
-    height: auto;
+    height: 50%;
 }
 
 /* Movie list */
@@ -205,7 +204,11 @@ h1 span {
     }
     
     h1 {
-        font-size: 13px;
+        font-size: 15px;
+    }
+
+    .title__text {
+        width: 180px;
     }
     
     .watch {
@@ -263,12 +266,12 @@ h1 span {
 
 @media (max-width: 767px) {
     .container {
-        padding: 40px 15px;
+        padding: 40px 30px;
     }
     
     .watch {
         margin-bottom: 30px;
-        font-size: 70px;
+        font-size: 60px;
         letter-spacing: -2.8px;
     }
     
@@ -285,7 +288,7 @@ h1 span {
     .movies__input {
         padding-left: 5px;
         width: 100%;
-        max-width: 350px;
+        max-width: 250px;
         font-size: 20px;
     }
     
