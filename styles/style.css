@@ -71,7 +71,6 @@ h1 span {
 }
 
 .movies__input {
-    outline: none;
     padding-left: 10px;
     
     width: 411px;
@@ -83,6 +82,11 @@ h1 span {
     font-size: 30px;
     font-weight: 400;
     letter-spacing: -0.6px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
 }
 
 .movies__input::placeholder {
